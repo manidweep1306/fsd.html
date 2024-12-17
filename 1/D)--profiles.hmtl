@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Profile Links</title>
+</head>
+<body style="text-align: center; font-family: Arial, sans-serif;">
+
+    <h1>Click on the images to visit profiles</h1>
+    
+    <!-- Manidweep's Profile Image -->
+    <a href="https://en.wikipedia.org/wiki/Crayon_Shin-chan" target="_blank">
+        <img src="file:///home/vitcse/shinchan.avif" alt="Manidweep" 
+             style="width: 200px; height: 200px; border-radius: 50%; margin: 20px; cursor: pointer;">
+    </a>
+    <p>Manidweep</p>
+
+    <!-- Sagar's Profile Image -->
+    <a href="https://crayonshinchan.fandom.com/wiki/Toru_Kazama" target="_blank">
+        <img src="file:///home/vitcse/Kazama2.PNG.webp" alt="Sagar" 
+             style="width: 200px; height: 200px; border-radius: 50%; margin: 20px; cursor: pointer;">
+    </a>
+    <p>Sagar</p>
+
+</body>
+</html>
