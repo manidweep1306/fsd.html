@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        background-color: rgb(0, 0, 0);
+    }
+    div{
+        
+        margin-top:200px ;
+
+    }
+    table{
+        background-color: rgb(229, 213, 192);
+        justify-content: center;
+        align-items: center;
+        color: white;
+        margin: auto;
+        text-align: center;
+        border-spacing: 5px;
+        margin-top: 20px;
+        
+
+    }
+   caption{
+        font-family: 'Courier New', Courier, monospace;
+        color: aqua;
+        text-decoration: underline;
+        margin-bottom: 5px;
+    }
+    th{
+    color:rgb(231, 227, 227) ;
+    }
+table tr,th{
+    padding: 10px;
+    border-collapse: collapse;
+    
+}
+
+</style>
+<body>
+    <div>
+        <table cellspacing="5" cellpadding="10">
+            <caption>Student Details</caption>
+            <tr rowspan="10">
+                <th>ID</th>
+                <th>NAME</th>
+                <th>CGPA</th>
+            </tr>
+            <tr>
+                <td>28</td>
+                <td>siva ganesh</td>
+                <td>8.9</td> 
+            </tr>
+            <tr>
+                <td>o7</td>
+                <td>manidweep</td>
+                <td rowspan="2">8.5</td>
+            </tr>
+            <tr>
+                <td>30</td>
+                <td>vamsi</td>
+                
+            </tr>
+            <tr>
+                <td>04</td>
+                <td>kiran</td>
+                <td>9.3</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
