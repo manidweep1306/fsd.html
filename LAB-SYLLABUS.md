@@ -5,8 +5,8 @@
 			a.Write a HTML program, to explain the working of lists.
 			b.Note: It should have an ordered list, unordered list, nested lists and ordered list in an unordered list and definition lists.
 			c.Write a HTML program, to explain the working of hyperlinks using <a> tag and href, target Attributes.
-			d.Create a HTML document that has your image and your friend’s image with a specific height and width. Also when clicked on the images it should navigate to their respective 			 	  profiles.
-			e.Write a HTML program, in such a way that, rather than placing large images on a page, the preferred technique is to use thumbnails by setting the height and width 				  	  parameters to something like to 100*100 pixels. Each thumbnail image is also a link to a full sized version of the image. Create an image gallery using this technique
+			d.Create a HTML document that has your image and your friend’s image with a specific height and width. Also when clicked on the images it should navigate to their respective profiles.
+			e.Write a HTML program, in such a way that, rather than placing large images on a page, the preferred technique is to use thumbnails by setting the height and width 	parameters to something like to 100*100 pixels. Each thumbnail image is also a link to a full sized version of the image. Create an image gallery using this technique
 
 ## 2.HTML Tables, Forms and Frames:
    
