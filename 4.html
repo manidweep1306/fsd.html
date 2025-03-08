@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selector Demonstration</title>
+    <style>
+        /* Simple Selectors */
+        h1 {
+            color: blue;
+        }
+        #unique {
+            color: red;
+            font-weight: bold;
+        }
+        .highlight {
+            background-color: yellow;
+            font-style: italic;
+        }
+        h2, p {
+            text-align: center;
+        }
+        * {
+            font-family: Arial, sans-serif;
+        }
+
+        /* Combinator Selectors */
+        div p {
+            color: green;
+        }
+        div > p {
+            font-weight: bold;
+        }
+        h2 + p {
+            color: orange;
+        }
+        h2 ~ p {
+            font-style: italic;
+        }
+
+        /* Pseudo-Class Selectors */
+        a:hover {
+            color: red;
+        }
+        p:first-child {
+            background-color: lightblue;
+        }
+        input:focus {
+            border: 2px solid blue;
+        }
+
+        /* Pseudo-Element Selectors */
+        p::first-letter {
+            font-size: 24px;
+            font-weight: bold;
+            color: brown;
+        }
+        p::first-line {
+            font-weight: bold;
+        }
+        p::after {
+            content: " (Read more...)";
+            color: gray;
+        }
+
+        /* Attribute Selectors */
+        input[type="text"] {
+            border: 2px solid green;
+            padding: 5px;
+        }
+        [title] {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Simple Selectors</h1>
+    <p id="unique">This is an ID selector example.</p>
+    <p class="highlight">This is a class selector example.</p>
+
+    <h2>Combinator Selectors</h2>
+    <div>
+        <p>This paragraph is inside a div (descendant selector).</p>
+        <p>This is a direct child paragraph (child selector).</p>
+    </div>
+    <p>This paragraph comes after h2 (general sibling selector).</p>
+
+    <h2>Pseudo-Class & Pseudo-Element Selectors</h2>
+    <a href="#">Hover over this link</a>
+    <p>First letter is styled with a pseudo-element.</p>
+    <input type="text" placeholder="Click here and see the effect">
+
+    <h2>Attribute Selectors</h2>
+    <p title="Full Stack Developement">This paragraph has a title attribute.</p>
+    <input type="text" placeholder="Styled input field">
+    
+</body>
+</html>
