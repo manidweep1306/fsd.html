@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Box Model Demonstration</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        .box {
+            width: 300px;
+            background-color: #f4f4f4;
+            margin: 20px auto; /* Centers the box horizontally */
+            padding: 20px; /* Space inside the box around the content */
+            border: 5px solid #007BFF; /* Adds a blue border */
+        }
+
+        .content {
+            background-color: #ffffff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .label {
+            margin-bottom: 10px;
+            font-weight: bold;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS Box Model Demonstration</h1>
+
+    <div class="box">
+        <div class="label">Margin</div>
+        <div class="label">Border</div>
+        <div class="content">This is the content inside the box!</div>
+        <div class="label">Padding</div>
+    </div>
+
+    <p>This example demonstrates the CSS box model:</p>
+    <ul>
+        <li><strong>Content:</strong> The white area in the center where the text is displayed.</li>
+        <li><strong>Padding:</strong> The space between the content and the border (light gray).</li>
+        <li><strong>Border:</strong> The solid blue line surrounding the box.</li>
+        <li><strong>Margin:</strong> The space outside the border (moves the box away from other elements).</li>
+    </ul>
+</body>
+</html>
