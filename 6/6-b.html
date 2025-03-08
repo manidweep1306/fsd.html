@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Output Methods</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin: 20px;
+      }
+      #output-area {
+        margin-top: 20px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        background-color: #f9f9f9;
+      }
+      button {
+        padding: 10px 15px;
+        font-size: 16px;
+        cursor: pointer;
+        border: none;
+        background-color: #007bff;
+        color: white;
+        border-radius: 5px;
+        margin: 5px;
+      }
+      button:hover {
+        background-color: #0056b3;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>JavaScript Output Methods</h1>
+
+    <button onclick="showAlert()">Show Alert</button>
+    <button onclick="writeToDocument()">Write to Document</button>
+    <button onclick="logToConsole()">Log to Console</button>
+    <button onclick="updateInnerHTML()">Update Inner HTML</button>
+
+    <div id="output-area">Output will appear here.</div>
+
+    <script>
+      // Method 1: Alert Box
+      function showAlert() {
+        alert("This is an alert box!");
+      }
+
+      // Method 2: Write to the Document
+      function writeToDocument() {
+        document.write("This text is written directly to the document.");
+      }
+
+      // Method 3: Log to Console
+      function logToConsole() {
+        console.log("This message is logged to the console.");
+      }
+
+      // Method 4: Update Inner HTML
+      function updateInnerHTML() {
+        document.getElementById("output-area").innerHTML =
+          "This text is updated using innerHTML.";
+      }
+    </script>
+  </body>
+</html>
